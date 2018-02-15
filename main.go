@@ -12,5 +12,8 @@ func Handle(event json.RawMessage) (response interface{}, err error) {
 }
 
 func main() {
+	/* Run in locally my way */
+	// res, err := Handle([]byte("Hello"))
+	// log.Println(res, err)
 	lambda.Start(Handle)
 }
