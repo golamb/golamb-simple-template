@@ -1,3 +1,3 @@
 #!/bin/bash
 
-aws lambda update-function-code --function-name simple-golambd  --zip-file fileb://main.zip;
+aws lambda update-function-code --function-name <PROJECT_NAME> --zip-file fileb://main.zip;
