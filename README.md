@@ -4,6 +4,11 @@
 
 * [dep](https://github.com/golang/dep)
 * [aws-lambda-go](https://github.com/aws/aws-lambda-go/)
+## For developers on Windows
+```bash
+go.exe get -u github.com/aws/aws-lambda-go/cmd/build-lambda-zip
+```
+
 
 ## First Step
 
