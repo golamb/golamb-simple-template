@@ -3,7 +3,7 @@
 ## Init project
 
 ```sh
-golamb init api-gateway my-project
+golamb init simple my-project
 ```
 
 ## Require
